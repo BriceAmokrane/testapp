@@ -23,6 +23,6 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=brice
-            -Dsonar.organization=brice
+            -Dsonar.organization=Brice
             -Dsonar.sources=app,resources
             -Dsonar.tests=tests
