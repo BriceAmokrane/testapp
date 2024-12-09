@@ -22,7 +22,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=testapp
+            -Dsonar.projectKey=BriceAmokrane_testapp
             -Dsonar.organization=briceamokrane
             -Dsonar.sources=app,resources
             -Dsonar.tests=tests
